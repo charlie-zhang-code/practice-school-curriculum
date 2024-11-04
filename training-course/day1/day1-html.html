@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1 - Html</title>
+    <style>
+        form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: inline-block;
+            width: 60px;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        select {
+            width: 200px;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            width: 100%;
+            padding: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/" method="get">
+        <label for="name">姓名：</label>
+        <input type="text" name="name" id="name" placeholder="请输入姓名">
+        <br>
+        
+        <label for="password">密码：</label>
+        <input type="password" name="password" id="password" placeholder="请输入密码">
+        <br>
+        
+        <label for="gender">性别：</label>
+        <input type="radio" name="gender" id="male" value="male">男
+        <input type="radio" name="gender" id="female" value="female">女
+        <br>
+        
+        <label for="interesting">兴趣：</label>
+        <input type="checkbox" name="interesting" id="basketball" value="basketball">篮球
+        <input type="checkbox" name="interesting" id="football" value="football">足球
+        <input type="checkbox" name="interesting" id="swimming" value="swimming">游泳
+        <br>
+        
+        <label for="city">城市：</label>
+        <select name="city" id="city">
+            <option value="beijing">北京</option>
+            <option value="shanghai">上海</option>
+            <option value="guangzhou">广州</option>
+        </select>
+        <br>
+        
+        <input type="submit" value="提交">
+    </form>
+</body>
+
+</html>
