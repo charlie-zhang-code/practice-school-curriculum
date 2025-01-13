@@ -1,39 +1,59 @@
-# Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-dist
+# 忽略全部的文件
+*
 
-# Node dependencies
-node_modules
+# 不忽略文件夹的结构
+!*/
 
-**/**/node_modules/*
-node_modules/*
+# 禁止忽略以下面后缀的文件
 
-# Logs
-logs
-*.log
+# C/CPP
+!*.c
+!*.h
+!*.cpp
 
-# Misc
-.DS_Store
-.fleet
-.idea
+# Java
+!*.xml
+!*.java
+!*.jsp
 
-# Local env files
-.env
-.env.*
-!.env.example
+# PHP与前端
+!*.php
+!*.html
+!*.css
+!*.js
+!*.ts
+!*.vue
 
+# python
+!*.py
+!*.ipynb
+
+# SQL
+!*.sql
+
+# 测试
+!*.http
+
+# Docker、Cmake
+!Dockerfile
+!Makefile
+
+# 资源
+!*.txt
+!*.md
+!*.csv
+!*.xls
+!*.docx
+!*.doc
+!*.png
+!*.jpg
+!*.json
+
+# 不忽略git文件
+!.gitignore
+
+# 忽略所有隐藏文件夹
+.#/
+
+# 忽略备份文件夹
 .backup
-
-!**/src/main/**/target/
-!**/src/test/**/target/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-**/src/main/**/target/*
-**/src/test/**/target/*
-**/src/main/**/build/*
-**/src/test/**/build/*

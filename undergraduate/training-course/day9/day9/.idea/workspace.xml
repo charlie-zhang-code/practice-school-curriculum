@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="day9:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc7eb9bb-4514-4639-b17f-85c751ed32fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/A/A.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/A/result1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/A/result2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/A/result4.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/B/B.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/.ipynb_checkpoints/问题1.1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/.ipynb_checkpoints/问题1.2-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/.ipynb_checkpoints/问题2-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/2023年各农作物销售量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/correlation_clustermap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/correlation_heatmap_scatter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/crop_type_area.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/merged_file_with_sales.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/planting_area_by_crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/plot_type_sales.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/total_cost_by_crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/total_sales_by_crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/不同农作物的销售量折线图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/亩产量与销售量的散点图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/初始数据未进行计算单价.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/各农作物总销售量.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/处理后数据.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/年度成本_第1年.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/年度成本_第2年.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/年度成本_第3年.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/逻辑化数据.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1.1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1.2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2024年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2024年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2025年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2025年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2026年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2026年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2027年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2027年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2028年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2028年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2029年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2029年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2030年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/2030年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1/问题1.1华北地区所有季盈收情况汇总.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1归一化总产量热力图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_1总产量汇总.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2024年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2024年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2025年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2025年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2026年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2026年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2027年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2027年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2028年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2028年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2029年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2029年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2030年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/2030年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2/问题1.2华北地区所有季盈收情况汇总.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2归一化总产量热力图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题1_2总产量汇总.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题2/result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/问题2/问题2华北地区所有季盈收情况汇总.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/附件1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/附件1sheet1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/附件1sheet2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/附件2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/附件2sheet1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C-local-run/附件2sheet2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/.ipynb_checkpoints/C-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2024_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2024_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2025_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2025_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2026_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2026_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2027_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2027_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2028_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2028_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2029_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2029_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2030_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-49-12/2030_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2024_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2024_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2025_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2025_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2026_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2026_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2027_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2027_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2028_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2028_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2029_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2029_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2030_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_18-54-12/2030_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2024_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2024_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2025_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2025_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2026_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2026_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2027_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2027_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2028_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2028_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2029_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2029_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2030_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-29-45/2030_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2024_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2024_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2025_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2025_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2026_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2026_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2027_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2027_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2028_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2028_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2029_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2029_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2030_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-40-56/2030_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2024_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2024_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2025_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2025_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2026_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2026_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2027_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2027_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2028_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2028_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2029_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2029_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2030_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-43-53/2030_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2024_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2024_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2025_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2025_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2026_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2026_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2027_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2027_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2028_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2028_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2029_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2029_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2030_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_19-52-48/2030_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2024_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2024_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2025_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2025_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2026_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2026_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2027_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2027_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2028_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2028_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2029_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2029_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2030_Season_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/2030_Season_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/4545.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/2024-09-07_20-57-14/Convergence_PSO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/4554.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/6564645545.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/C.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/Out_55.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/Resolve.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/Resolve1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/Resolve1_1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/Rs.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/backup/result1_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/backup/result1_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/backup/result2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/backup/附件1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/backup/附件2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/lllll2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/output.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/program.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/program_resolve_1_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/program_resolve_1_1_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/program_resolve_1_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/program_resolve_1_2_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/program_resolve_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/program_resolve_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/program_resolve_3_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result1_1 - 副本.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result1_1(2).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result1_1(3).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result1_1(4).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result1_1-5.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result1_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result1_1_temp.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result1_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/result2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/sAS.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/ss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/拟合数据.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/问题3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/附件1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/附件1_temp.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/附件2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/C/附件2_temp.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/.ipynb_checkpoints/问题1.2-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/101.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/2023年各农作物销售量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/correlation_clustermap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/correlation_heatmap_scatter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/crop_type_area.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/merged_file_with_sales.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/planting_area_by_crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/plot_type_sales.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/total_cost_by_crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/total_sales_by_crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/不同农作物的销售量折线图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/亩产量与销售量的散点图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/初始数据未进行计算单价.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/各农作物总销售量.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/数据/附件1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/数据/附件2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/数据/附件3/result1_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/数据/附件3/result1_2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/数据/附件3/result2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/逻辑化数据.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1.1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1.2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2024年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2024年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2025年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2025年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2026年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2026年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2027年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2027年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2028年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2028年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2029年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2029年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2030年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/2030年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1/result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1归一化总产量热力图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_1总产量汇总.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2024年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2024年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2025年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2025年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2026年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2026年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2027年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2027年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2028年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2028年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2029年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2029年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2030年1季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/2030年2季_总产量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2/result.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2归一化总产量热力图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/问题1_2总产量汇总.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/附件1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/附件1sheet1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/附件1sheet2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/附件2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/附件2sheet1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/mathematical-contest-in-modeling/CD/附件2sheet2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/matplotlib)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-01/实验1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-01/课堂.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-02/.ipynb_checkpoints/实验2-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-02/baby_data_output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-02/property-data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-02/实验2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-02/新生数据.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-04/vote_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-04/全球GDP占比情况.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-04/历年GDP数据比较.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-04/实验四 比例数据的可视化.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-data-visualization-course/school-course/course-04/实验四.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Listings/ShiYan_1.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Listings/ShiYan_1.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Listings/startup_stm32f10x_hd.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Listings/startup_stm32f10x_hd.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1.axf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1.lnp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1_Target 1.dep" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/ShiYan_1_Target 1.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/core_cm3.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/core_cm3.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/misc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/misc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/startup_stm32f10x_hd.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/startup_stm32f10x_hd.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_exti.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_flash.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_flash.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_it.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/stm32f10x_rcc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/system_stm32f10x.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/Objects/system_stm32f10x.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/ShiYan_1.uvguix.zshey" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/ShiYan_1.uvguix.zshey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/ShiYan_1.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/ShiYan_1.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/ShiYan_1.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../experiment-embedded-course/ShiYan_1/object/ShiYan_1.uvprojx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-database-course/java-exercises-student-selection-system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-database-course/student-selection-system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/composer.phar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/composer_2.phar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/css/style-starter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/book2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/c2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/c4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/c5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/c6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/design.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/history.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/paint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/stats1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/stats2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/stats3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/stats4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/team1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/team2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/team3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/team4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/testi1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/testi2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/testi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/images/video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/js/counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/assets/js/theme-change.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/common/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/common/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/courses.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/pub/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/assets/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/assets/img/head/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/detail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/loginHandle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/registerHandle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/reservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/public/study_room.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/puc/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../project-endofterm-php-course/puc/ok.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2p9wX9iC6M0ryP81WD1xxD6CISe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 11.0.1.executor": "Debug",
+    "Tomcat Server.Unnamed.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WorkSpace/Project/MyProject/school-curriculum/undergraduate/training-course/day9/day9/src/main/java/cn/zshey/controller",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.13967973",
+    "project.structure.side.proportion": "0.21532091",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Project\MyProject\school-curriculum\undergraduate\training-course\day9\day9\src\main\java\cn\zshey\controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 11.0.1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.1" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="day9:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b7893a12-9d0a-4dbd-aa46-52ee6d433feb" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51425" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="day9:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc7eb9bb-4514-4639-b17f-85c751ed32fa" name="Changes" comment="" />
+      <created>1732191637484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732191637484</updated>
+      <workItem from="1732191638574" duration="3859000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

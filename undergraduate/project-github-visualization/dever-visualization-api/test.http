@@ -1,0 +1,38 @@
+### POST 配置用户名
+POST http://127.0.0.1:8000/config/user/
+Content-Type: application/json
+
+{
+  "username": "",
+  "token": ""
+}
+
+### yyx990803
+
+### GET 获取用户githubapi数据
+GET http://127.0.0.1:8000/config/user/api
+Accept: application/json
+
+### GET 获取当前配置的GitHub用户数据
+GET http://127.0.0.1:8000/config/user/
+Accept: application/json
+
+### GET 获取用户语言聚合
+GET http://localhost:8000/user/languages
+Accept: application/json
+
+### GET 获取用户行为数据
+GET http://localhost:8000/user/action
+Accept: application/json
+
+### GET 获取用户仓库数据
+GET http://localhost:8000/user/repos
+Accept: application/json
+
+### GET 仓库详情数据
+GET http://localhost:8000/user/repos/data
+Accept: application/json
+
+### GET 获取用户所有的commits
+GET http://localhost:8000/user/commits
+Accept: application/json
