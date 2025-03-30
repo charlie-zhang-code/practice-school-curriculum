@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.github.charlie.mapper.OrderMapper">
+
+    <resultMap id="BaseResultMap" type="io.github.charlie.model.entity.Order">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="productId" column="product_id" jdbcType="BIGINT"/>
+            <result property="specificationId" column="specification_id" jdbcType="BIGINT"/>
+            <result property="quantity" column="quantity" jdbcType="INTEGER"/>
+            <result property="price" column="price" jdbcType="DECIMAL"/>
+            <result property="totalPrice" column="total_price" jdbcType="DECIMAL"/>
+            <result property="state" column="state" jdbcType="INTEGER"/>
+            <result property="paymentMethod" column="payment_method" jdbcType="INTEGER"/>
+            <result property="paymentTime" column="payment_time" jdbcType="TIMESTAMP"/>
+            <result property="deliveryTime" column="delivery_time" jdbcType="TIMESTAMP"/>
+            <result property="receiveTime" column="receive_time" jdbcType="TIMESTAMP"/>
+            <result property="commentState" column="comment_state" jdbcType="INTEGER"/>
+            <result property="scoreState" column="score_state" jdbcType="INTEGER"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+            <result property="remark" column="remark" jdbcType="VARCHAR"/>
+            <result property="createAt" column="create_at" jdbcType="TIMESTAMP"/>
+            <result property="createBy" column="create_by" jdbcType="BIGINT"/>
+            <result property="updateAt" column="update_at" jdbcType="TIMESTAMP"/>
+            <result property="updateBy" column="update_by" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,product_id,specification_id,
+        quantity,price,total_price,
+        state,payment_method,payment_time,
+        delivery_time,receive_time,comment_state,
+        score_state,status,remark,
+        create_at,create_by,update_at,
+        update_by
+    </sql>
+</mapper>

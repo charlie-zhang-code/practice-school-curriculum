@@ -1,0 +1,58 @@
+# 忽略所有.开头的文件和文件夹
+.*
+
+# 不忽略git文件
+!.gitignore
+
+# 忽略任意层级的node_modules文件夹
+**/node_modules/
+
+# 为了仓库干净，手动配置允许的文件
+# 禁止忽略以下面后缀的文件
+
+# Java
+!*.xml
+!*.java
+!*.jsp
+
+# springboot
+!*.properties
+!*.yml
+!*.yaml
+!*.log
+
+# 前端
+!*.ico
+!*.html
+!*.css
+!*.js
+!*.tsx
+!*.jsx
+!*.ts
+!*.vue
+!*.yaml
+!*.yml
+!*.development
+!*.production
+
+# SQL
+!*.sql
+
+# 测试
+!*.http
+
+# Docker、Cmake
+!Dockerfile
+!Makefile
+
+# 资源
+!*.txt
+!*.md
+!*.csv
+!*.xls
+!*.docx
+!*.doc
+!*.png
+!*.jpg
+!*.json
+

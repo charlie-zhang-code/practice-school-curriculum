@@ -1,0 +1,29 @@
+:root {
+  --min-width: 980px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f5f6f7;
+  min-width: var(--min-width);
+}
+
+.my-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 980px) {
+  .my-container {
+    max-width: var(--min-width);
+  }
+}
+
+.my-container-min-width {
+  min-width: var(--min-width);
+}

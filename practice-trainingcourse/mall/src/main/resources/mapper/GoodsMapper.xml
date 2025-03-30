@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.mapper.GoodsMapper">
+
+    <resultMap id="BaseResultMap" type="com.mall.model.entity.Goods">
+            <id property="id" column="id" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+            <result property="createPeople" column="create_people" />
+            <result property="updatePeople" column="update_people" />
+            <result property="img" column="img" />
+            <result property="name" column="name" />
+            <result property="price" column="price" />
+            <result property="typeid" column="typeId" />
+            <result property="stockNum" column="stock_num" />
+            <result property="goodsDesc" column="goods_desc" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,create_time,update_time,create_people,update_people,img,
+        name,price,typeId,stock_num,goods_desc
+    </sql>
+</mapper>

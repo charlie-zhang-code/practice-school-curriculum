@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/demo/index",
+    "pages/demo/demo1/index",
+    "pages/logs/logs",
+    "pages/demo/demo0/index",
+    "pages/demo/2-4/index",
+    "pages/demo/2-6/index",
+    "pages/demo/2-6/receive/receive",
+    "pages/demo/2-7/index",
+    "pages/demo/2-8/index",
+    "pages/demo/2-9/footer",
+    "pages/demo/2-9/header",
+    "pages/demo/2-9/index",
+    "pages/demo/2-s/detail/detail",
+    "pages/demo/2-s/index",
+    "pages/demo/3-1/index",
+    "pages/demo/3-2/index",
+    "pages/demo/3-3/index",
+    "pages/demo/3-4/index",
+    "pages/demo/3-5/index",
+    "pages/demo/3-6/index",
+    "pages/demo/3-7/index",
+    "pages/demo/3-11/index",
+    "pages/demo/3-12/index",
+    "pages/demo/3-15/index",
+    "pages/demo/3-8/index",
+    "pages/demo/3-9/index",
+    "pages/demo/3-10/index",
+    "pages/demo/3-13/index",
+    "pages/demo/3-14/index",
+    "pages/demo/3-16/index",
+    "pages/demo/3-17/index",
+    "pages/demo/2-5/index",
+    "pages/demo/3-3-1/index",
+    "pages/demo/3-s/index",
+    "pages/demo/3-p-1/index",
+    "pages/demo/3-18/index",
+    "pages/demo/3-18/newpage1/index",
+    "pages/demo/3-18/newpage2/index",
+    "pages/demo/3-19/index",
+    "pages/demo/3-21/index",
+    "pages/demo/3-20/index",
+    "pages/demo/3-22/index",
+    "pages/demo/3-p-1/pages/music-list/music-list",
+    "pages/demo/3-p-1/pages/player/player"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "课程Demo",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/demo/index",
+        "text": "Demo",
+        "iconPath": "images/demo.png",
+        "selectedIconPath": "images/demo.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/logs.png",
+        "selectedIconPath": "images/logs.png"
+      }
+    ]
+  }
+}

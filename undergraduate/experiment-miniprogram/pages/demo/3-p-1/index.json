@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "首页",
+    "usingComponents": {
+        "navbar": "/pages/demo/3-p-1/components/navbar/navbar",
+        "musictop": "/pages/demo/3-p-1/components/top/top",
+        "singertop": "/pages/demo/3-p-1/components/singer/singer",
+        "usercenter": "/pages/demo/3-p-1/components/user/user"
+    }
+  }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mall.mapper.AdminMapper">
+
+    <resultMap id="BaseResultMap" type="com.mall.model.entity.Admin">
+            <id property="id" column="id" />
+            <result property="email" column="email" />
+            <result property="createPeople" column="create_people" />
+            <result property="updatePeople" column="update_people" />
+            <result property="nickname" column="nickname" />
+            <result property="pwd" column="pwd" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,email,create_people,update_people,nickname,pwd,
+        create_time,update_time
+    </sql>
+</mapper>

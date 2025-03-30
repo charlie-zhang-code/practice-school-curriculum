@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "音乐榜单",
+    "usingComponents": {
+      "navbar": "/pages/demo/3-p-1/components/navbar/navbar"
+    }
+  }
