@@ -1,0 +1,231 @@
+version: '3.7'
+
+services:
+# ################ shard1 ################
+  shard10:
+    image: mongo:3.6
+    container_name: shard10
+    ports:
+      - "27001:27017"
+    volumes:
+      - /mnt/mongo/data/shard10/:/data/db
+      - /mnt/mongo/log/shard10/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard1 
+             --logpath=/data/configdb/shard1.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+  shard11:
+    image: mongo:3.6
+    container_name: shard11
+    ports:
+      - "28001:27017"
+    volumes:
+      - /mnt/mongo/data/shard11/:/data/db
+      - /mnt/mongo/log/shard11/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard1 
+             --logpath=/data/configdb/shard1.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+  shard12:
+    image: mongo:3.6
+    container_name: shard12
+    ports:
+      - "29001:27017"
+    volumes:
+      - /mnt/mongo/data/shard12/:/data/db
+      - /mnt/mongo/log/shard12/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard1 
+             --logpath=/data/configdb/shard1.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+# ################ shard2 ################
+  shard20:
+    image: mongo:3.6
+    container_name: shard20
+    ports:
+      - "27002:27017"
+    volumes:
+      - /mnt/mongo/data/shard20/:/data/db
+      - /mnt/mongo/log/shard20/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard2 
+             --logpath=/data/configdb/shard2.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+  shard21:
+    image: mongo:3.6
+    container_name: shard21
+    ports:
+      - "28002:27017"
+    volumes:
+      - /mnt/mongo/data/shard21/:/data/db
+      - /mnt/mongo/log/shard21/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard2 
+             --logpath=/data/configdb/shard2.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+  shard22:
+    image: mongo:3.6
+    container_name: shard22
+    ports:
+      - "29002:27017"
+    volumes:
+      - /mnt/mongo/data/shard22/:/data/db
+      - /mnt/mongo/log/shard22/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard2 
+             --logpath=/data/configdb/shard2.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+# ################ shard3 ################
+  shard30:
+    image: mongo:3.6
+    container_name: shard30
+    ports:
+      - "27012:27017"
+    volumes:
+      - /mnt/mongo/data/shard30/:/data/db
+      - /mnt/mongo/log/shard30/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard3
+             --logpath=/data/configdb/shard3.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+  shard31:
+    image: mongo:3.6
+    container_name: shard31
+    ports:
+      - "28012:27017"
+    volumes:
+      - /mnt/mongo/data/shard31/:/data/db
+      - /mnt/mongo/log/shard31/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard3 
+             --logpath=/data/configdb/shard3.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+  shard32:
+    image: mongo:3.6
+    container_name: shard32
+    ports:
+      - "29012:27017"
+    volumes:
+      - /mnt/mongo/data/shard32/:/data/db
+      - /mnt/mongo/log/shard32/:/data/configdb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --shardsvr 
+             --replSet shard3
+             --logpath=/data/configdb/shard3.log
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+# ################ config ################
+  confsvr1:
+    image: mongo:3.6
+    container_name: confsvr1
+    ports:
+      - "27003:27017"
+    volumes:
+      - /mnt/mongo/data/cfgsvr1/:/data/db/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --configsvr
+             --dbpath /data/db
+             --replSet crs
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+             --port 27003
+
+  cfgsvr2:
+    image: mongo:3.6
+    container_name: cfgsvr2
+    ports:
+      - "28003:27017"
+    volumes:
+      - /mnt/mongo/data/cfgsvr2/:/data/db/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --configsvr
+             --dbpath /data/db
+             --replSet crs
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+             --port 27003
+
+  cfgsvr3:
+    image: mongo:3.6
+    container_name: cfgsvr3
+    ports:
+      - "29003:27017"
+    volumes:
+      - /mnt/mongo/data/cfgsvr3/:/data/db/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongod --configsvr
+             --dbpath /data/db
+             --replSet crs
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+             --port 27003
+
+# ################ mongos ################
+  mongos1:
+    image: mongo:3.6
+    container_name: mongos1
+    ports:
+      - "27004:27017"
+    volumes:
+      - /mnt/mongo/log/mongos1/:/var/log/mongodb/
+    networks:
+      - mongo_cluster_net
+    command: >
+      mongos --bind_ip_all
+             --port 27017
+             --configdb crs/172.17.161.182:27003,172.17.161.182:28003,172.17.161.182:29003
+             --wiredTigerCacheSizeGB 2
+             --journalCommitInterval 100
+
+networks:
+  mongo_cluster_net:
+    driver: bridge

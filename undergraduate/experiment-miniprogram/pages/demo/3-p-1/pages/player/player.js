@@ -57,7 +57,9 @@ Page({
         }
       ],
     playMode: 'sequence', // 默认顺序播放
-    randomOrder: []
+    randomOrder: [],
+    currentTime: 0, // 当前播放时间
+    duration: 0    // 音频总时长
   },
 
   onLoad: function (options) {
@@ -77,6 +79,7 @@ Page({
     this.data.audioContext.src = url;
     this.data.audioContext.onPlay(() => {
       this.setData({ isPlaying: true });
+      this.getDuration(); // 获取音频总时长
     });
     this.data.audioContext.onPause(() => {
       this.setData({ isPlaying: false });
@@ -84,8 +87,55 @@ Page({
     this.data.audioContext.onEnded(() => {
       this.playNextSong();
     });
+    this.data.audioContext.onTimeUpdate(() => {
+        this.updateProgress(); // 实时更新进度条
+      });
+  },
+  formatTime: function (seconds) {
+    if (isNaN(seconds)) return '00:00';
+    const minute = Math.floor(seconds / 60);
+    const sec = Math.floor(seconds % 60);
+    return `${minute.toString().padStart(2, '0')}:${sec.toString().padStart(2, '0')}`;
+  },
+  getDuration: function () {
+    if (!this.data.audioContext) {
+      console.error('audioContext is not initialized');
+      return;
+    }
+
+    this.data.audioContext.getDuration({
+      success: (res) => {
+        this.setData({
+          duration: Math.floor(res)
+        });
+      },
+      fail: (err) => {
+        console.error('getDuration failed:', err);
+      }
+    });
   },
 
+  updateProgress: function () {
+    if (!this.data.audioContext) {
+      console.error('audioContext is not initialized');
+      return;
+    }
+
+    this.data.audioContext.getCurrentTime({
+      success: (res) => {
+        if (this.data.duration > 0) {
+          const progressPercentage = ((res / this.data.duration) * 100).toFixed(2);
+          this.setData({
+            currentTime: Math.floor(res),
+            progressPercentage: progressPercentage
+          });
+        }
+      },
+      fail: (err) => {
+        console.error('getCurrentTime failed:', err);
+      }
+    });
+  },
   togglePlay: function () {
     if (this.data.isPlaying) {
       this.data.audioContext.pause();
@@ -132,6 +182,7 @@ Page({
     if (this.data.isPlaying) {
       this.data.audioContext.play();
     }
+    this.getDuration();
   },
 
   setMode: function (e) {

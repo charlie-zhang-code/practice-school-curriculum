@@ -32,7 +32,12 @@ Component({
           rankList: sortedList
         });
       },
-  
+      navigateToSingerSongs(event) {
+        const singerId = event.currentTarget.dataset.id;
+        wx.navigateTo({
+          url: `/pages/demo/3-p-1/pages/singer-music/singer-music?id=${singerId}`,
+        });
+      },
       onAvatarError(event) {
         const { index } = event.currentTarget.dataset;
         const defaultAvatar = 'https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg'; // 默认头像地址

@@ -40,6 +40,11 @@ Page({
         { name: '3-22', label: 'Demo 3-22地图组件' },
         { name: '3-s', label: 'Demo 3实训' },
         { name: '3-p-1', label: 'Demo 3 音乐盒子' },
+        { name: '4-18', label: 'Demo 4-18' },
+        { name: '4-20', label: 'Demo 4-20' },
+        { name: '4-21', label: 'Demo 4-21' },
+        { name: 's-3-1', label: '实验三（Part1）' },
+        { name: 's-3-2', label: '实验三（Part2）' },
       ]
   },
 

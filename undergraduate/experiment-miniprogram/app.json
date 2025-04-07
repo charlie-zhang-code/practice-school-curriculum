@@ -43,7 +43,14 @@
     "pages/demo/3-20/index",
     "pages/demo/3-22/index",
     "pages/demo/3-p-1/pages/music-list/music-list",
-    "pages/demo/3-p-1/pages/player/player"
+    "pages/demo/3-p-1/pages/player/player",
+    "pages/demo/3-p-1/pages/singer-music/singer-music",
+    "pages/demo/4-18/index",
+    "pages/demo/4-18/detail/index",
+    "pages/demo/4-21/index",
+    "pages/demo/4-20/index",
+    "pages/demo/s-3-1/index",
+    "pages/demo/s-3-2/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
