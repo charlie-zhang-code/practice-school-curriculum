@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/chooseVideo/chooseVideo",
+    "pages/saveVideo/saveVideo",
+    "pages/logs/logs",
+    "pages/videoList/videoList"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#07C160",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/chooseVideo/chooseVideo",
+        "text": "ChooseVideo",
+        "iconPath": "/image/alert-info-icon-1024x1024-ev11boj8.png",
+        "selectedIconPath": "/image/alert-info-icon-1024x1024-ev11boj8.png"
+      },
+      {
+        "pagePath": "pages/videoList/videoList",
+        "text": "VideoList",
+        "iconPath": "/image/584319.png",
+        "selectedIconPath": "/image/584319.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -45,6 +45,11 @@ Page({
         { name: '4-21', label: 'Demo 4-21' },
         { name: 's-3-1', label: '实验三（Part1）' },
         { name: 's-3-2', label: '实验三（Part2）' },
+        { name: '5-2', label: 'Demo 5-2' },
+        { name: '5-4', label: 'Demo 5-4' },
+        { name: '5-4-data', label: 'Demo 5-4-data' },
+        { name: '5-s', label: 'Demo 5-s' },
+        { name: '5-jd', label: '实验三 仿京东商城(其他新项目)' },
       ]
   },
 

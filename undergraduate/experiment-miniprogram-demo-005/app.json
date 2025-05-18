@@ -1,0 +1,13 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/map/map"
+    ],
+    "window": {
+      "navigationBarTitleText": "会议邀请函",
+      "navigationBarBackgroundColor": "#2b85e4",
+      "navigationBarTextStyle": "white"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+  }

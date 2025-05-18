@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/websocket/websocket"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF", 
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "聊天室"
+  },
+  "sitemapLocation": "sitemap.json"
+}

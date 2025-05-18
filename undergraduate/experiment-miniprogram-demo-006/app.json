@@ -1,0 +1,43 @@
+{
+    "pages": [
+        "pages/getImageInfo/getImageInfo",
+        "pages/previewImage/previewImage",
+        "pages/saveImage/saveImage",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarBackgroundColor": "#ffffff"
+    },
+    "tabBar": {
+        "color": "#999999",
+        "selectedColor": "#07C160",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/getImageInfo/getImageInfo",
+                "text": "ImageInfo",
+                "iconPath": "/image/alert-info-icon-1024x1024-ev11boj8.png",
+                "selectedIconPath": "/image/alert-info-icon-1024x1024-ev11boj8.png"
+            },
+            {
+                "pagePath": "pages/previewImage/previewImage",
+                "text": "PreviewImage",
+                "iconPath": "/image/584319.png",
+                "selectedIconPath": "/image/584319.png"
+            },
+            {
+                "pagePath": "pages/saveImage/saveImage",
+                "text": "SaveImage",
+                "iconPath": "/image/Save-Button-PNG-Transparent.png",
+                "selectedIconPath": "/image/Save-Button-PNG-Transparent.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "componentFramework": "glass-easel",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

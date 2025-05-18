@@ -16,7 +16,7 @@ public class BatchInsertOptimized {
 
     private static final Logger LOGGER = Logger.getLogger(BatchInsertOptimized.class.getName());
 
-    private static final String HOST = "47.98.108.68";
+    private static final String HOST = "101.201.174.43";
     private static final int PORT = 27004;
     private static final String DATABASE_NAME = "test";
     private static final String COLLECTION_NAME = "kpl";

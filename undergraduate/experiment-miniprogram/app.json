@@ -50,7 +50,12 @@
     "pages/demo/4-21/index",
     "pages/demo/4-20/index",
     "pages/demo/s-3-1/index",
-    "pages/demo/s-3-2/index"
+    "pages/demo/s-3-2/index",
+    "pages/demo/5-2/index",
+    "pages/demo/5-4/index",
+    "pages/demo/5-s/index",
+    "pages/demo/5-4-data/index",
+    "pages/demo/5-jd/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
