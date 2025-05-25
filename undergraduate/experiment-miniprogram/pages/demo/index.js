@@ -50,6 +50,7 @@ Page({
         { name: '5-4-data', label: 'Demo 5-4-data' },
         { name: '5-s', label: 'Demo 5-s' },
         { name: '5-jd', label: '实验三 仿京东商城(其他新项目)' },
+        { name: '9-2', label: '9-2' },
       ]
   },
 

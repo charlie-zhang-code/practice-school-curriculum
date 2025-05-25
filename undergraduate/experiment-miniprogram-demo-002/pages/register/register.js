@@ -60,10 +60,10 @@ Page({
       
       // 显示加载状态
       this.setData({ loading: true });
-      
+
       // 调用注册接口
       wx.request({
-        url: 'http://localhost:8080/api/user/register',
+        url: 'http://101.201.174.43:8071/api/user/register',
         method: 'POST',
         data: {
           username,
@@ -74,6 +74,8 @@ Page({
         },
         success: (res) => {
           if (res.statusCode === 200) {
+ 
+
             // 注册成功处理
             wx.showToast({
               title: '注册成功',

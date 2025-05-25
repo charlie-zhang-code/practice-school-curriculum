@@ -55,7 +55,8 @@
     "pages/demo/5-4/index",
     "pages/demo/5-s/index",
     "pages/demo/5-4-data/index",
-    "pages/demo/5-jd/index"
+    "pages/demo/5-jd/index",
+    "pages/demo/9-2/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",

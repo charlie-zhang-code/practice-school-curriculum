@@ -20,10 +20,10 @@ Page({
                     userId: userInfo.id || '暂无',
                     isLoggedIn: true
                 });
-            } 
+            }
             else {
-                 // 跳转登陆页面
-                 wx.reLaunch({
+                // 跳转登陆页面
+                wx.reLaunch({
                     url: '/pages/login/login'
                 });
             }
@@ -34,7 +34,13 @@ Page({
             });
         }
     },
-
+    navigateToPage: function (e) {
+        const url = e.currentTarget.dataset.url;
+        console.log(url);
+        wx.navigateTo({
+            url: url
+        });
+    },
     // 处理退出登录
     handleLogout() {
         wx.showModal({

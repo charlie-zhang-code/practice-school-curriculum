@@ -24,76 +24,76 @@ Page({
         this.setCurrentTime();
         this.loadAlarms();
     },
-// 新增方法
-initDateTimePicker() {
-    // 生成日期时间选择器数据
-    const years = [];
-    const months = [];
-    const days = [];
-    const hours = [];
-    const minutes = [];
-    const seconds = [];
-    
-    // 年份：当前年到5年后
-    for (let i = 0; i < 5; i++) {
-      years.push({
-        id: new Date().getFullYear() + i,
-        name: (new Date().getFullYear() + i) + '年'
-      });
-    }
-    
-    // 月份：1-12月
-    for (let i = 1; i <= 12; i++) {
-      months.push({
-        id: i,
-        name: i + '月'
-      });
-    }
-    
-    // 日：1-31日（实际使用时需要根据月份调整）
-    for (let i = 1; i <= 31; i++) {
-      days.push({
-        id: i,
-        name: i + '日'
-      });
-    }
-    
-    // 时：0-23时
-    for (let i = 0; i < 24; i++) {
-      hours.push({
-        id: i,
-        name: (i < 10 ? '0' + i : i) + '时'
-      });
-    }
-    
-    // 分：0-59分
-    for (let i = 0; i < 60; i++) {
-      minutes.push({
-        id: i,
-        name: (i < 10 ? '0' + i : i) + '分'
-      });
-    }
-    
-    // 秒：0-59秒
-    for (let i = 0; i < 60; i++) {
-      seconds.push({
-        id: i,
-        name: (i < 10 ? '0' + i : i) + '秒'
-      });
-    }
-    
-    this.setData({
-      dateTimeArray: [years, months, days, hours, minutes, seconds],
-      dateTime: [0, new Date().getMonth(), new Date().getDate() - 1, new Date().getHours(), new Date().getMinutes(), 0]
-    });
-  },
-  setCurrentDateTime() {
-    const now = new Date();
-    const formatted = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
-    this.setData({
-      formattedDateTime: formatted
-    });
-  },
+    // 新增方法
+    initDateTimePicker() {
+        // 生成日期时间选择器数据
+        const years = [];
+        const months = [];
+        const days = [];
+        const hours = [];
+        const minutes = [];
+        const seconds = [];
+
+        // 年份：当前年到5年后
+        for (let i = 0; i < 5; i++) {
+            years.push({
+                id: new Date().getFullYear() + i,
+                name: (new Date().getFullYear() + i) + '年'
+            });
+        }
+
+        // 月份：1-12月
+        for (let i = 1; i <= 12; i++) {
+            months.push({
+                id: i,
+                name: i + '月'
+            });
+        }
+
+        // 日：1-31日（实际使用时需要根据月份调整）
+        for (let i = 1; i <= 31; i++) {
+            days.push({
+                id: i,
+                name: i + '日'
+            });
+        }
+
+        // 时：0-23时
+        for (let i = 0; i < 24; i++) {
+            hours.push({
+                id: i,
+                name: (i < 10 ? '0' + i : i) + '时'
+            });
+        }
+
+        // 分：0-59分
+        for (let i = 0; i < 60; i++) {
+            minutes.push({
+                id: i,
+                name: (i < 10 ? '0' + i : i) + '分'
+            });
+        }
+
+        // 秒：0-59秒
+        for (let i = 0; i < 60; i++) {
+            seconds.push({
+                id: i,
+                name: (i < 10 ? '0' + i : i) + '秒'
+            });
+        }
+
+        this.setData({
+            dateTimeArray: [years, months, days, hours, minutes, seconds],
+            dateTime: [0, new Date().getMonth(), new Date().getDate() - 1, new Date().getHours(), new Date().getMinutes(), 0]
+        });
+    },
+    setCurrentDateTime() {
+        const now = new Date();
+        const formatted = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
+        this.setData({
+            formattedDateTime: formatted
+        });
+    },
     setCurrentTime() {
         const now = new Date();
         const hours = now.getHours().toString().padStart(2, '0');
@@ -105,58 +105,58 @@ initDateTimePicker() {
     bindDateTimeChange(e) {
         const arr = e.detail.value;
         const { dateTimeArray } = this.data;
-        
+
         const year = dateTimeArray[0][arr[0]].id;
         const month = dateTimeArray[1][arr[1]].id;
         const day = dateTimeArray[2][arr[2]].id;
         const hour = dateTimeArray[3][arr[3]].id;
         const minute = dateTimeArray[4][arr[4]].id;
         const second = dateTimeArray[5][arr[5]].id;
-        
+
         const formatted = `${year}年${month}月${day}日 ${hour}:${minute}:${second}`;
-        
+
         this.setData({
-          dateTime: arr,
-          formattedDateTime: formatted
+            dateTime: arr,
+            formattedDateTime: formatted
         });
-      },
-      bindDateTimeColumnChange(e) {
+    },
+    bindDateTimeColumnChange(e) {
         // 处理列变化，特别是当月份变化时需要调整天数
         const { column, value } = e.detail;
         const { dateTime, dateTimeArray } = this.data;
-        
+
         if (column === 1) { // 月份变化
-          const year = dateTimeArray[0][dateTime[0]].id;
-          const month = value + 1; // 月份从0开始
-          
-          // 计算该月有多少天
-          const daysInMonth = new Date(year, month, 0).getDate();
-          
-          // 更新天数数据
-          const days = [];
-          for (let i = 1; i <= daysInMonth; i++) {
-            days.push({
-              id: i,
-              name: i + '日'
+            const year = dateTimeArray[0][dateTime[0]].id;
+            const month = value + 1; // 月份从0开始
+
+            // 计算该月有多少天
+            const daysInMonth = new Date(year, month, 0).getDate();
+
+            // 更新天数数据
+            const days = [];
+            for (let i = 1; i <= daysInMonth; i++) {
+                days.push({
+                    id: i,
+                    name: i + '日'
+                });
+            }
+
+            // 更新dateTimeArray
+            const newDateTimeArray = [...dateTimeArray];
+            newDateTimeArray[2] = days;
+
+            // 如果当前选择的日期大于新的最大天数，则调整为最大天数
+            let dayIndex = dateTime[2];
+            if (dayIndex >= daysInMonth) {
+                dayIndex = daysInMonth - 1;
+            }
+
+            this.setData({
+                dateTimeArray: newDateTimeArray,
+                dateTime: [dateTime[0], value, dayIndex, dateTime[3], dateTime[4], dateTime[5]]
             });
-          }
-          
-          // 更新dateTimeArray
-          const newDateTimeArray = [...dateTimeArray];
-          newDateTimeArray[2] = days;
-          
-          // 如果当前选择的日期大于新的最大天数，则调整为最大天数
-          let dayIndex = dateTime[2];
-          if (dayIndex >= daysInMonth) {
-            dayIndex = daysInMonth - 1;
-          }
-          
-          this.setData({
-            dateTimeArray: newDateTimeArray,
-            dateTime: [dateTime[0], value, dayIndex, dateTime[3], dateTime[4], dateTime[5]]
-          });
         }
-      },
+    },
     loadAlarms() {
         // 从本地存储加载闹钟
         const alarms = wx.getStorageSync('alarms') || [];
@@ -236,112 +236,55 @@ initDateTimePicker() {
             notes: ''
         });
     },
-// 修改createAlarm方法
-createAlarm() {
-    const { alarmTypes, typeIndex, title, dateTimeArray, dateTime, formattedDateTime, location, notes } = this.data;
-    
-    if (!title) {
-      wx.showToast({
-        title: '请输入标题',
-        icon: 'none'
-      });
-      return;
-    }
-    
-    // 解析选择的日期时间
-    const year = dateTimeArray[0][dateTime[0]].id;
-    const month = dateTimeArray[1][dateTime[1]].id;
-    const day = dateTimeArray[2][dateTime[2]].id;
-    const hour = dateTimeArray[3][dateTime[3]].id;
-    const minute = dateTimeArray[4][dateTime[4]].id;
-    const second = dateTimeArray[5][dateTime[5]].id;
-    
-    const alarmDate = new Date(year, month - 1, day, hour, minute, second);
-    
-    const newAlarm = {
-      id: new Date().getTime(),
-      type: alarmTypes[typeIndex].name,
-      title,
-      time: formattedDateTime,
-      date: alarmDate.toString(),
-      location,
-      notes,
-      status: 'pending'
-    };
-    
-    // 保存到本地存储
-    const alarms = wx.getStorageSync('alarms') || [];
-    alarms.push(newAlarm);
-    wx.setStorageSync('alarms', alarms);
-    
-    // 更新UI
-    this.loadAlarms();
-    this.setData({
-      currentTab: 0
-    });
-    
-    wx.showToast({
-      title: '创建成功',
-      icon: 'success'
-    });
-  },
-    // createAlarm() {
-    //     // const { alarmTypes, typeIndex, title, time, location, notes } = this.data;
-    //     const { alarmTypes, typeIndex, title, dateTimeArray, dateTime, formattedDateTime, location, notes } = this.data;
-    //     if (!title) {
-    //         wx.showToast({
-    //             title: '请输入标题',
-    //             icon: 'none'
-    //         });
-    //         return;
-    //     }
+    // 修改createAlarm方法
+    createAlarm() {
+        const { alarmTypes, typeIndex, title, dateTimeArray, dateTime, formattedDateTime, location, notes } = this.data;
 
-    //     if (!time) {
-    //         wx.showToast({
-    //             title: '请选择时间',
-    //             icon: 'none'
-    //         });
-    //         return;
-    //     }
+        if (!title) {
+            wx.showToast({
+                title: '请输入标题',
+                icon: 'none'
+            });
+            return;
+        }
 
-    //     // 创建闹钟对象
-    //     const now = new Date();
-    //     const [hours, minutes] = time.split(':');
-    //     const alarmDate = new Date(
-    //         now.getFullYear(),
-    //         now.getMonth(),
-    //         now.getDate(),
-    //         parseInt(hours),
-    //         parseInt(minutes)
-    //     );
+        // 解析选择的日期时间
+        const year = dateTimeArray[0][dateTime[0]].id;
+        const month = dateTimeArray[1][dateTime[1]].id;
+        const day = dateTimeArray[2][dateTime[2]].id;
+        const hour = dateTimeArray[3][dateTime[3]].id;
+        const minute = dateTimeArray[4][dateTime[4]].id;
+        const second = dateTimeArray[5][dateTime[5]].id;
 
-    //     const newAlarm = {
-    //         id: now.getTime(),
-    //         type: alarmTypes[typeIndex].name,
-    //         title,
-    //         time,
-    //         date: alarmDate.toString(),
-    //         location,
-    //         notes,
-    //         status: 'pending'
-    //     };
+        const alarmDate = new Date(year, month - 1, day, hour, minute, second);
 
-    //     // 保存到本地存储
-    //     const alarms = wx.getStorageSync('alarms') || [];
-    //     alarms.push(newAlarm);
-    //     wx.setStorageSync('alarms', alarms);
+        const newAlarm = {
+            id: new Date().getTime(),
+            type: alarmTypes[typeIndex].name,
+            title,
+            time: formattedDateTime,
+            date: alarmDate.toString(),
+            location,
+            notes,
+            status: 'pending'
+        };
 
-    //     // 更新UI
-    //     this.loadAlarms();
-    //     this.setData({
-    //         currentTab: 0
-    //     });
+        // 保存到本地存储
+        const alarms = wx.getStorageSync('alarms') || [];
+        alarms.push(newAlarm);
+        wx.setStorageSync('alarms', alarms);
 
-    //     wx.showToast({
-    //         title: '创建成功',
-    //         icon: 'success'
-    //     });
-    // },
+        // 更新UI
+        this.loadAlarms();
+        this.setData({
+            currentTab: 0
+        });
+
+        wx.showToast({
+            title: '创建成功',
+            icon: 'success'
+        });
+    },
 
     viewDetail(e) {
         const id = e.currentTarget.dataset.id;
