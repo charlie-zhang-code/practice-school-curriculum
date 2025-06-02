@@ -56,3 +56,5 @@
 27. PHP期末课程课设-自习室管理系统 [undergraduate/project-endofterm-php-course](undergraduate/project-endofterm-php-course)
 28. 数据可视化期末课设-Github个人仓库可视化 [undergraduate/project-github-visualization](undergraduate/project-github-visualization)
 29. 纯代码学习的部分的随课练习 [undergraduate/training-course](undergraduate/training-course)
+30. 基于MySQL微信小程序密码登录/wx.login使用后端，基于数据库的新闻列表页实现 [undergraduate/demo](undergraduate/demo)
+31. 微信小程序期末课设-编程速查小工具 [undergraduate/programming_handbook](undergraduate/programming_handbook)

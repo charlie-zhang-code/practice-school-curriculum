@@ -1,0 +1,142 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "type": "home",
+      "layout": "default",
+      "name": "index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/account/index",
+      "type": "page",
+      "layout": "default",
+      "name": "account",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/article/index",
+      "type": "page",
+      "layout": "base",
+      "name": "article",
+      "style": {
+        "navigationBarTitleText": "文章"
+      },
+      "usingComponents": {
+        "markdown-it": "@components/markdown-it/markdown-it"
+      }
+    },
+    {
+      "path": "pages/articles/index",
+      "type": "page",
+      "layout": "base",
+      "name": "articles",
+      "style": {
+        "navigationBarTitleText": "更多"
+      }
+    },
+    {
+      "path": "pages/code/index",
+      "type": "page",
+      "layout": "default",
+      "name": "code",
+      "style": {
+        "navigationBarTitleText": "代码"
+      }
+    },
+    {
+      "path": "pages/command/index",
+      "type": "page",
+      "layout": "default",
+      "name": "command",
+      "style": {
+        "navigationBarTitleText": "命令"
+      }
+    },
+    {
+      "path": "pages/example/index",
+      "type": "page",
+      "layout": "base",
+      "name": "example",
+      "style": {
+        "navigationBarTitleText": "例子"
+      }
+    },
+    {
+      "path": "pages/tools/index",
+      "type": "page",
+      "layout": "default",
+      "name": "tools",
+      "style": {
+        "navigationBarTitleText": "工具"
+      }
+    },
+    {
+      "path": "pages/tools/collection/coutdown",
+      "type": "page",
+      "layout": "base",
+      "name": "cutdown",
+      "style": {
+        "navigationBarTitleText": "倒计时"
+      }
+    },
+    {
+      "path": "pages/tools/collection/dice",
+      "type": "page",
+      "layout": "base",
+      "name": "dice",
+      "style": {
+        "navigationBarTitleText": "骰子工具"
+      }
+    },
+    {
+      "path": "pages/tools/collection/hotAnalyzer",
+      "type": "page",
+      "layout": "base",
+      "name": "hotAnalyzer",
+      "style": {
+        "navigationBarTitleText": "热点分析器"
+      }
+    },
+    {
+      "path": "pages/tools/collection/jsonFormate",
+      "type": "page",
+      "layout": "base",
+      "name": "jsonFormate",
+      "style": {
+        "navigationBarTitleText": "Json格式化"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTitleText": "uniapp-woui-start",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "height": "0",
+    "color": "#bfbfbf",
+    "selectedColor": "#0165FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/command/index"
+      },
+      {
+        "pagePath": "pages/tools/index"
+      },
+      {
+        "pagePath": "pages/code/index"
+      }
+    ]
+  },
+  "__esModule": true,
+  "subPackages": []
+}

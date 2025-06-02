@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:
+      demo
+
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://101.201.174.43:3306/miniapp_db
+    username: root
+    password: 123456
+server:
+  port: 8071
